@@ -1,0 +1,35 @@
+header {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  column-width: 60px;
+}
+li a{
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+}
+
+main {
+  margin: 0 20px;
+}
+p {
+  column-count: 4;
+  column-span: all;
+  column-gap: 20px;
+  column-rule: 2px solid black;
+  column-fill: auto;
+  text-align: justify;
+}
+footer {
+  background-color: black;
+  height: 40px;
+  color: white;
+  text-align: center;
+}
